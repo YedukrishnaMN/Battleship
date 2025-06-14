@@ -55,12 +55,15 @@ class HowToPlayPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              '1. Each player sets up their fleet on their board by placing ships horizontally or vertically.\n'
-                  '2. Players take turns guessing the location of the other players ships by clicking on thier  grid coordinates.\n'
-                  '3. The left side of the board shows if ur guesses hit or missed.\n'
-                  '4. Once a ship is completely hit, it is "sunk".\n'
-                  '5. The game ends when one player sinks all of the opponents ships.'
-                  '6 The main grid shows the guesses and its consequences respectively.',
+              '1.There is one main grid in the centre and a small grid in the left.\n'
+              '2. There are 4 ships on the top, they are of length 3,2,2,3 respectively.\n'
+              '3. Click on one of them and select the orientation of it by clicked on the arrow.\n'
+              '4. Then place the ship where u want on the main grid by clicking there.\n'
+              '5. After your done give the device to player2 and they repeat the process.\n'
+              '6. Now start clicking on the main grid to guess the opponents ship locations.\n'
+              '7. The damage to your ship will be seen on your main grid and ur guesses on the left grid.\n'
+              '8. A blast represts you have guessed correct and a "x" represents a miss.\n'
+              '9. Guess all the opponents ships to win.\n',
               style: TextStyle(fontSize: 18, color: Colors.black),
             ),
             SizedBox(height: 20),
@@ -77,9 +80,9 @@ class HowToPlayPage extends StatelessWidget {
             SizedBox(height: 10),
             Text(
               '• Each player has a fleet consisting of different-sized ships.\n'
-                  '• Players cannot move their ships once they are placed on the grid.\n'
-                  '• The ships are placed on a 10x10 grid.\n'
-                  '• The first player to sink all of the opponent\'s ships wins!',
+              '• Players cannot move their ships once they are placed on the grid.\n'
+              '• The ships are placed on a 10x10 grid.\n'
+              '• The first player to sink all of the opponent\'s ships wins!',
               style: TextStyle(fontSize: 18, color: Colors.black),
             ),
             SizedBox(height: 20),
